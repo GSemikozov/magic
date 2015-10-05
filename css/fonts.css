@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: url('../fonts/gabriola.eot');
+    src: url('../fonts/gabriola.eot#iefix') format('embedded-opentype'),
+    url('../fonts/gabriola.woff') format('woff'),
+    url('../fonts/gabriola.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

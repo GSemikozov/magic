@@ -83,6 +83,7 @@ body {
       .wrapper .navbar-default #navbar-collapse .navbar-right div .mail {
         color: #f7e1aa;
         font-size: 21px;
+        text-decoration: underline;
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); }
         .wrapper .navbar-default #navbar-collapse .navbar-right div .mail span {
           position: relative;
@@ -273,87 +274,90 @@ body {
       width: 393px;
       height: 413px; }
     .wrapper footer p {
-      color: #374455;
+      color: #414f5f;
       font-family: 'Open Sans', sans-serif;
       font-size: 16px;
-      margin: 5px 0;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); }
+      margin: 5px 0; }
       .wrapper footer p span {
         margin-right: 20px; }
       .wrapper footer p .mail {
         text-decoration: underline; }
 
 @media screen and (max-width: 1200px) {
-  .wrapper .navbar-default .navbar-header .logo {
-    max-width: 240px; }
-  .wrapper .navbar-default #navbar-collapse .navbar-right div {
-    text-align: right; }
-    .wrapper .navbar-default #navbar-collapse .navbar-right div a {
-      display: block;
-      position: relative;
-      text-align: right;
-      transition: .3s all;
-      margin-bottom: 10px; }
-      .wrapper .navbar-default #navbar-collapse .navbar-right div a:hover {
-        transition: .3s all; }
-    .wrapper .navbar-default #navbar-collapse .navbar-right div .phone-number {
-      font-size: 34px; }
-    .wrapper .navbar-default #navbar-collapse .navbar-right div .mail {
-      font-size: 17px; }
-      .wrapper .navbar-default #navbar-collapse .navbar-right div .mail span:before {
-        top: 4px; }
-    .wrapper .navbar-default #navbar-collapse .navbar-right div .ask-question-btn {
-      font-size: 17px;
-      max-width: 195px;
-      height: 65px;
-      line-height: 65px; }
-  .wrapper .empty-block {
-    height: 330px; }
-  .wrapper .content .main-menu {
-    margin-bottom: 50px;
-    height: 60px; }
-    .wrapper .content .main-menu ul.nav-justified > li:after {
-      top: 2px; }
-    .wrapper .content .main-menu ul.nav-justified {
-      padding: 12px 40px; }
-      .wrapper .content .main-menu ul.nav-justified li a {
-        font-size: 16px;
-        line-height: 16px;
-        height: 36px; }
-      .wrapper .content .main-menu ul.nav-justified li .dropdown-menu {
-        margin: 5px 0 0; }
-        .wrapper .content .main-menu ul.nav-justified li .dropdown-menu li a {
-          font-size: 14px; }
-  .wrapper .content .content_text p {
-    padding: 0 0 33px;
-    font-size: 20px; }
-  .wrapper .content .content_text h3 {
-    font-size: 29px; }
-  .wrapper .content .news li {
-    width: 23.69%;
-    margin: 0 15px 15px 0; }
-    .wrapper .content .news li:nth-child(4n) {
-      margin: 0 0 15px 0; }
-    .wrapper .content .news li a {
-      width: 100%; }
-      .wrapper .content .news li a .caption {
-        font-size: 14px;
-        width: 108px;
-        height: 25px;
-        line-height: 25px; }
-      .wrapper .content .news li a .heading {
-        font-size: 13px; }
-  .wrapper footer {
-    min-height: 110px; }
-    .wrapper footer:before {
-      bottom: 50px;
-      left: -100px; }
-    .wrapper footer p {
-      font-size: 13px; } }
+  .wrapper {
+    background: url("../img/wrapper-lg.png") no-repeat; }
+    .wrapper .navbar-default .navbar-header .logo {
+      max-width: 240px; }
+    .wrapper .navbar-default #navbar-collapse .navbar-right div {
+      text-align: right; }
+      .wrapper .navbar-default #navbar-collapse .navbar-right div a {
+        display: block;
+        position: relative;
+        text-align: right;
+        transition: .3s all;
+        margin-bottom: 10px; }
+        .wrapper .navbar-default #navbar-collapse .navbar-right div a:hover {
+          transition: .3s all; }
+      .wrapper .navbar-default #navbar-collapse .navbar-right div .phone-number {
+        font-size: 34px; }
+      .wrapper .navbar-default #navbar-collapse .navbar-right div .mail {
+        font-size: 17px; }
+        .wrapper .navbar-default #navbar-collapse .navbar-right div .mail span:before {
+          top: 4px; }
+      .wrapper .navbar-default #navbar-collapse .navbar-right div .ask-question-btn {
+        font-size: 17px;
+        max-width: 195px;
+        height: 65px;
+        line-height: 65px; }
+    .wrapper .empty-block {
+      height: 330px; }
+    .wrapper .content .main-menu {
+      margin-bottom: 50px;
+      height: 60px; }
+      .wrapper .content .main-menu ul.nav-justified > li:after {
+        top: 2px; }
+      .wrapper .content .main-menu ul.nav-justified {
+        padding: 12px 40px; }
+        .wrapper .content .main-menu ul.nav-justified li a {
+          font-size: 16px;
+          line-height: 16px;
+          height: 36px; }
+        .wrapper .content .main-menu ul.nav-justified li .dropdown-menu {
+          margin: 5px 0 0; }
+          .wrapper .content .main-menu ul.nav-justified li .dropdown-menu li a {
+            font-size: 14px; }
+    .wrapper .content .content_text p {
+      padding: 0 0 33px;
+      font-size: 20px; }
+    .wrapper .content .content_text h3 {
+      font-size: 29px; }
+    .wrapper .content .news li {
+      width: 23.69%;
+      margin: 0 15px 15px 0; }
+      .wrapper .content .news li:nth-child(4n) {
+        margin: 0 0 15px 0; }
+      .wrapper .content .news li a {
+        width: 100%; }
+        .wrapper .content .news li a .caption {
+          font-size: 14px;
+          width: 108px;
+          height: 25px;
+          line-height: 25px; }
+        .wrapper .content .news li a .heading {
+          font-size: 13px; }
+    .wrapper footer {
+      min-height: 110px; }
+      .wrapper footer:before {
+        bottom: 50px;
+        left: -100px; }
+      .wrapper footer p {
+        font-size: 13px; } }
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    background: url("../img/wrapper-sm.png") no-repeat; }
+    background-color: #09121b;
+    background: url("../img/wrapper-sm.png") no-repeat;
+    padding-bottom: 30px; }
     .wrapper .navbar-default .navbar-header .logo {
       max-width: 180px; }
     .wrapper .navbar-default #navbar-collapse .navbar-right div .phone-number {
@@ -386,14 +390,14 @@ body {
       .wrapper .content .main-menu ul.nav-justified > li:after {
         top: 4px;
         height: 20px;
-        width: 8px;
+        width: 13px;
         margin-left: -4px; }
       .wrapper .content .main-menu ul.nav-justified {
         padding: 11px 34px; }
         .wrapper .content .main-menu ul.nav-justified li a {
           font-size: 13px;
           line-height: 14px;
-          height: 28px;
+          height: 29px;
           padding-bottom: 7px;
           padding-top: 7px; }
         .wrapper .content .main-menu ul.nav-justified li .dropdown-menu {
@@ -414,9 +418,11 @@ body {
       .wrapper .content .news li:nth-child(3n) {
         margin: 0 0 20px 0; }
     .wrapper footer {
-      min-height: 45px; }
+      background-color: #09121b;
+      min-height: 45px;
+      padding-bottom: 30px; }
       .wrapper footer:before {
-        bottom: 20px;
+        bottom: 50px;
         left: -40px;
         width: 260px;
         height: 340px; }
@@ -475,6 +481,9 @@ body {
           float: none; }
     .wrapper .empty-block {
       height: 350px; }
+    .wrapper .content .main-menu ul.nav-justified > li:after {
+      width: 13px;
+      margin-left: -4px; }
     .wrapper .content .content_text p {
       font-size: 14px; }
     .wrapper .content .content_text h3 {
@@ -501,7 +510,7 @@ body {
     .wrapper footer {
       padding-top: 30px; }
       .wrapper footer:before {
-        bottom: 30px;
+        bottom: 60px;
         left: 12%; }
       .wrapper footer p {
         margin-bottom: 2px;

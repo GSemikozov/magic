@@ -8,8 +8,20 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Gabriela-Regular';
+    src: url('../fonts/Gabriola/Gabriela-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Georgia';
     src: url('../fonts/georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia-Italic';
+    src: url('../fonts/Georgia/georgiai.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

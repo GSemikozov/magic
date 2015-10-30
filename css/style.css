@@ -7,38 +7,62 @@ body {
 @media (min-width: 320px) {
   .container {
     width: 320px; }
+  .wrapper .women {
+    max-width: 320px;
+    margin-left: -160px; } }
+
+@media (min-width: 480px) {
   .wrapper {
-    max-width: 767px; } }
+    max-width: 767px; }
+    .wrapper .women {
+      max-width: 450px;
+      margin-left: -225px; } }
 
 @media (min-width: 768px) {
   .container {
     width: 730px; }
   .wrapper {
     max-width: 970px;
-    max-height: 1492px; } }
+    max-height: 1492px; }
+    .wrapper .women {
+      max-width: 730px;
+      margin-left: -365px; } }
 
 @media (min-width: 992px) {
   .container {
     width: 890px; }
   .wrapper {
     max-width: 1170px;
-    max-height: 1558px; } }
+    max-height: 1558px; }
+    .wrapper .women {
+      max-width: 890px;
+      margin-left: -445px; } }
 
 @media (min-width: 1200px) {
   .container {
     width: 1100px; }
   .wrapper {
     max-width: 1635px;
-    max-height: 1875px; } }
+    max-height: 1920px;
+    height: 100%; }
+    .wrapper .women {
+      max-width: 1100px;
+      margin-left: -550px; } }
+
+.visible-xlg {
+  display: block; }
 
 .wrapper {
   position: relative;
   z-index: 1;
-  background: url("../img/bg.png") no-repeat;
-  background-size: 100% 100%;
   width: 100%;
   height: 100%;
   margin: 0 auto; }
+  .wrapper .women {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 50%; }
   .wrapper .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -64,7 +88,7 @@ body {
           transition: .3s all; }
       .wrapper .navbar-default #navbar-collapse .navbar-right div .phone-number {
         color: #f7e1aa;
-        font-family: 'Gabriola', sans-serif;
+        font-family: 'Gabriela-Regular', sans-serif;
         font-size: 42px;
         line-height: .8em;
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); }
@@ -75,7 +99,7 @@ body {
             background: url("../img/phone-icon.png") no-repeat;
             background-size: 100% 100%;
             left: 0;
-            top: 8px;
+            top: 16px;
             position: absolute;
             content: "";
             height: 27px;
@@ -113,7 +137,7 @@ body {
         text-align: center; }
   .wrapper .empty-block {
     width: 100%;
-    height: 390px; }
+    height: 430px; }
   .wrapper .content {
     position: relative;
     z-index: 2; }
@@ -201,8 +225,7 @@ body {
         height: 12px; }
     .wrapper .content .content_text h3 {
       font-size: 35px;
-      font-family: 'Georgia', sans-serif;
-      font-style: italic;
+      font-family: 'Georgia-Italic', sans-serif;
       text-align: center;
       color: #000;
       margin: 15px 0 10px; }
@@ -283,9 +306,24 @@ body {
       .wrapper footer p .mail {
         text-decoration: underline; }
 
+@media screen and (max-width: 1920px) {
+  .wrapper {
+    background: url("../img/bg.png") no-repeat;
+    background-size: 100% 100%; }
+    .wrapper .empty-block {
+      height: 380px; } }
+
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    background: url("../img/wrapper-lg.png") no-repeat;
+    background-size: 100% 100%; }
+    .wrapper .empty-block {
+      height: 390px; } }
+
 @media screen and (max-width: 1200px) {
   .wrapper {
-    background: url("../img/wrapper-lg.png") no-repeat; }
+    background: url("../img/wrapper-lg.png") no-repeat;
+    background-size: 100% 100%; }
     .wrapper .navbar-default .navbar-header .logo {
       max-width: 240px; }
     .wrapper .navbar-default #navbar-collapse .navbar-right div {
@@ -310,7 +348,7 @@ body {
         height: 65px;
         line-height: 65px; }
     .wrapper .empty-block {
-      height: 330px; }
+      height: 310px; }
     .wrapper .content .main-menu {
       margin-bottom: 50px;
       height: 60px; }
@@ -357,6 +395,7 @@ body {
   .wrapper {
     background-color: #09121b;
     background: url("../img/wrapper-sm.png") no-repeat;
+    background-size: 100% 100%;
     padding-bottom: 30px; }
     .wrapper .navbar-default .navbar-header .logo {
       max-width: 180px; }
@@ -508,7 +547,8 @@ body {
         height: 35px;
         line-height: 35px; }
     .wrapper footer {
-      padding-top: 30px; }
+      padding-top: 30px;
+      background-color: transparent; }
       .wrapper footer:before {
         bottom: 60px;
         left: 12%; }
@@ -520,3 +560,9 @@ body {
         max-width: 70px; }
         .wrapper footer .footer-logo img {
           max-width: 70px; } }
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    background-size: 100% 600px; }
+    .wrapper .empty-block {
+      height: 250px; } }
